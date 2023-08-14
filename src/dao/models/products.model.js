@@ -1,5 +1,6 @@
 import mongoose from 'mongoose';
 import mongoosePaginate from 'mongoose-paginate-v2';
+import { v4 as uuidv4 } from 'uuid';
 
 const productCollection = 'products'
 
@@ -17,7 +18,8 @@ const productSchema = new mongoose.Schema({
     thumbnail: String,
     code: {
         type: String,
-        unique: true
+        unique: true,
+        default: uuidv4()
     },
     stock: Number,
     category: {

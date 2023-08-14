@@ -24,4 +24,14 @@ describe('Testing Products Manager', () => {
         assert.strictEqual(Array.isArray(docs),true);
     });
 
+    it("The POST method of Products must be create a product in Database", async function(){
+        let mockProduct = {
+            title: "Create Product Test",
+            price: 123456,
+            category: "Testing"
+        }
+        const result = await this.productManager.post(mockProduct);
+        assert.ok(result._id);
+    });
+
 })
