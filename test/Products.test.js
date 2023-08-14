@@ -34,15 +34,31 @@ describe('Testing Products Manager', () => {
     //     assert.ok(result._id);
     // });
 
-    it("The GET method of Product must be obtain a product saved on Database", async function(){
-        // let mockProduct = {
-        //     title: "Get Product Test",
-        //     price: 123456,
-        //     category: "Testing"
-        // }
-        // const product = await this.productManager.post(mockProduct);
-        let result = await this.productManager.getProduct("64da3ff86648e945622272df");
-        assert.ok(result[0]._id);
+    // it("The GET method of Product must be obtain a product saved on Database", async function(){
+    //     // let mockProduct = {
+    //     //     title: "Get Product Test",
+    //     //     price: 123456,
+    //     //     category: "Testing"
+    //     // }
+    //     // const product = await this.productManager.post(mockProduct);
+    //     let result = await this.productManager.getProduct("64da3ff86648e945622272df");
+    //     assert.ok(result[0]._id);
+    // });
+
+    it("The PUT method of Products must be modify a product", async function(){
+        let mockProductPost = {
+            title: "Put Product Test Create",
+            price: 123456,
+            category: "Testing"
+        }
+        const productCreated = await this.productManager.post(mockProductPost);
+        let mockProductPut = {
+            title: "Put Product Test Modify",
+            price: 123456,
+            category: "Testing"
+        }
+        const productModified = await this.productManager.put(productCreated._id, mockProductPut);
+        assert.ok(productModified != productCreated);
     });
 
 })

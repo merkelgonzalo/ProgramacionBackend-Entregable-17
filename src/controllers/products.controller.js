@@ -95,7 +95,7 @@ export const updateProductController = async (req, res) => {
         const product = req.body;
         const idProduct = req.params.pid;
         
-        if(!product.title || !product.price || !product.code || !product.category){
+        if(!product.title || !product.price || !product.category){
             errorService.customError({
                 name: "Product update error",
                 cause: errorService.generateProductErrorInfo(product),

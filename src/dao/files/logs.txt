@@ -191,3 +191,6 @@ Date: 14/8/2023 - Hour: 12:06:31 - Method: GET producs
 Date: 14/8/2023 - Hour: 12:06:32 - Method: GET producs
 Date: 14/8/2023 - Hour: 12:08:14 - Method: GET a product
 Date: 14/8/2023 - Hour: 12:09:07 - Method: GET a product
+Date: 14/8/2023 - Hour: 12:35:42 - Method: POST a product
+Date: 14/8/2023 - Hour: 12:35:43 - Method: UPDATE a product
+Date: 14/8/2023 - Hour: 12:36:02 - Method: GET producs
