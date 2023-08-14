@@ -133,3 +133,20 @@ Date: 3/8/2023 - Hour: 11:34:11 - Method: GET a product
 Date: 3/8/2023 - Hour: 11:34:22 - Method: DELETE a product
 Date: 3/8/2023 - Hour: 11:35:41 - Method: GET producs
 Date: 7/8/2023 - Hour: 20:52:56 - Method: GET producs
+Date: 14/8/2023 - Hour: 09:16:20 - Method: GET producs
+Date: 14/8/2023 - Hour: 09:23:41 - Method: GET producs
+Date: 14/8/2023 - Hour: 09:24:41 - Method: GET producs
+Date: 14/8/2023 - Hour: 09:27:19 - Method: GET producs
+Date: 14/8/2023 - Hour: 09:36:07 - Method: GET producs
+Date: 14/8/2023 - Hour: 09:39:46 - Method: GET producs
+Date: 14/8/2023 - Hour: 09:50:04 - Method: GET producs
+Date: 14/8/2023 - Hour: 09:51:20 - Method: GET producs
+Date: 14/8/2023 - Hour: 09:51:40 - Method: GET producs
+Date: 14/8/2023 - Hour: 09:54:08 - Method: GET producs
+Date: 14/8/2023 - Hour: 09:54:31 - Method: GET producs
+Date: 14/8/2023 - Hour: 10:03:01 - Method: GET producs
+Date: 14/8/2023 - Hour: 10:16:00 - Method: GET producs
+Date: 14/8/2023 - Hour: 10:16:29 - Method: GET producs
+Date: 14/8/2023 - Hour: 10:19:22 - Method: GET producs
+Date: 14/8/2023 - Hour: 10:20:47 - Method: GET producs
+Date: 14/8/2023 - Hour: 10:21:20 - Method: GET producs

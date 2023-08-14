@@ -5,7 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test-products": "mocha test/Products.test.js --timeout 7000"
   },
   "keywords": [],
   "author": "",

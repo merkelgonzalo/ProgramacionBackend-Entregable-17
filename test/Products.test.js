@@ -18,4 +18,10 @@ describe('Testing Products Manager', () => {
         this.timeout(7000)
     });
 
+    it("The GET method of Products must be obtain all products in array format", async function(){
+        const result = await this.productManager.get();
+        const docs = await result.docs;
+        assert.strictEqual(Array.isArray(docs),true);
+    });
+
 })
