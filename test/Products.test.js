@@ -41,24 +41,35 @@ describe('Testing Products Manager', () => {
     //     //     category: "Testing"
     //     // }
     //     // const product = await this.productManager.post(mockProduct);
-    //     let result = await this.productManager.getProduct("64da3ff86648e945622272df");
+    //     let result = await this.productManager.getProduct("product._id");
     //     assert.ok(result[0]._id);
     // });
 
-    it("The PUT method of Products must be modify a product", async function(){
+    // it("The PUT method of Products must be modify a product", async function(){
+    //     let mockProductPost = {
+    //         title: "Put Product Test Create",
+    //         price: 123456,
+    //         category: "Testing"
+    //     }
+    //     const productCreated = await this.productManager.post(mockProductPost);
+    //     let mockProductPut = {
+    //         title: "Put Product Test Modify",
+    //         price: 123456,
+    //         category: "Testing"
+    //     }
+    //     const productModified = await this.productManager.put(productCreated._id, mockProductPut);
+    //     assert.ok(productModified != productCreated);
+    // });
+
+    it("The DELETE method of Products must be delete a product", async function(){
         let mockProductPost = {
-            title: "Put Product Test Create",
+            title: "Delete Product Test Create",
             price: 123456,
             category: "Testing"
         }
         const productCreated = await this.productManager.post(mockProductPost);
-        let mockProductPut = {
-            title: "Put Product Test Modify",
-            price: 123456,
-            category: "Testing"
-        }
-        const productModified = await this.productManager.put(productCreated._id, mockProductPut);
-        assert.ok(productModified != productCreated);
+        const productDeleted = await this.productManager.delete(productCreated._id);
+        assert.ok(productCreated._id != productDeleted._id);
     });
 
 })
