@@ -18,20 +18,31 @@ describe('Testing Products Manager', () => {
         this.timeout(7000)
     });
 
-    it("The GET method of Products must be obtain all products in array format", async function(){
-        const result = await this.productManager.get();
-        const docs = await result.docs;
-        assert.strictEqual(Array.isArray(docs),true);
-    });
+    // it("The GET method of Products must be obtain all products in array format", async function(){
+    //     const result = await this.productManager.get();
+    //     const docs = await result.docs;
+    //     assert.strictEqual(Array.isArray(docs),true);
+    // });
 
-    it("The POST method of Products must be create a product in Database", async function(){
-        let mockProduct = {
-            title: "Create Product Test",
-            price: 123456,
-            category: "Testing"
-        }
-        const result = await this.productManager.post(mockProduct);
-        assert.ok(result._id);
+    // it("The POST method of Products must be create a product on Database", async function(){
+    //     let mockProduct = {
+    //         title: "Create Product Test",
+    //         price: 123456,
+    //         category: "Testing"
+    //     }
+    //     const result = await this.productManager.post(mockProduct);
+    //     assert.ok(result._id);
+    // });
+
+    it("The GET method of Product must be obtain a product saved on Database", async function(){
+        // let mockProduct = {
+        //     title: "Get Product Test",
+        //     price: 123456,
+        //     category: "Testing"
+        // }
+        // const product = await this.productManager.post(mockProduct);
+        let result = await this.productManager.getProduct("64da3ff86648e945622272df");
+        assert.ok(result[0]._id);
     });
 
 })

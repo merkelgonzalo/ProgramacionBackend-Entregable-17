@@ -161,3 +161,33 @@ Date: 14/8/2023 - Hour: 11:09:10 - Method: GET producs
 Date: 14/8/2023 - Hour: 11:09:11 - Method: GET producs
 Date: 14/8/2023 - Hour: 11:09:11 - Method: GET producs
 Date: 14/8/2023 - Hour: 11:09:12 - Method: GET producs
+Date: 14/8/2023 - Hour: 11:52:58 - Method: GET a product
+Date: 14/8/2023 - Hour: 11:53:43 - Method: GET producs
+Date: 14/8/2023 - Hour: 11:53:44 - Method: POST a product
+Date: 14/8/2023 - Hour: 11:53:44 - Method: POST a product
+Date: 14/8/2023 - Hour: 11:53:45 - Method: GET a product
+Date: 14/8/2023 - Hour: 11:57:29 - Method: POST a product
+Date: 14/8/2023 - Hour: 11:57:30 - Method: GET a product
+Date: 14/8/2023 - Hour: 11:58:05 - Method: POST a product
+Date: 14/8/2023 - Hour: 11:58:06 - Method: GET a product
+Date: 14/8/2023 - Hour: 11:58:38 - Method: POST a product
+Date: 14/8/2023 - Hour: 11:58:39 - Method: GET a product
+Date: 14/8/2023 - Hour: 12:03:23 - Method: POST a product
+Date: 14/8/2023 - Hour: 12:03:24 - Method: GET a product
+Date: 14/8/2023 - Hour: 12:03:39 - Method: POST a product
+Date: 14/8/2023 - Hour: 12:03:40 - Method: GET a product
+Date: 14/8/2023 - Hour: 12:04:03 - Method: POST a product
+Date: 14/8/2023 - Hour: 12:04:05 - Method: GET a product
+Date: 14/8/2023 - Hour: 12:04:40 - Method: POST a product
+Date: 14/8/2023 - Hour: 12:05:19 - Method: POST a product
+Date: 14/8/2023 - Hour: 12:06:22 - Method: GET producs
+Date: 14/8/2023 - Hour: 12:06:26 - Method: GET producs
+Date: 14/8/2023 - Hour: 12:06:27 - Method: GET producs
+Date: 14/8/2023 - Hour: 12:06:29 - Method: GET producs
+Date: 14/8/2023 - Hour: 12:06:29 - Method: GET producs
+Date: 14/8/2023 - Hour: 12:06:30 - Method: GET producs
+Date: 14/8/2023 - Hour: 12:06:30 - Method: GET producs
+Date: 14/8/2023 - Hour: 12:06:31 - Method: GET producs
+Date: 14/8/2023 - Hour: 12:06:32 - Method: GET producs
+Date: 14/8/2023 - Hour: 12:08:14 - Method: GET a product
+Date: 14/8/2023 - Hour: 12:09:07 - Method: GET a product
