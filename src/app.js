@@ -84,3 +84,5 @@ io.on('connection', Socket =>{
         Socket.broadcast.emit('newUserConnected', data)
       })
 });
+
+export { app };

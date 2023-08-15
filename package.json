@@ -5,7 +5,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test-products": "mocha test/Products.test.js --timeout 7000"
+    "test-products": "mocha test/Products.test.js --timeout 7000",
+    "test-carts": "mocha test/Carts.test.js --timeout 10000 --exit"
   },
   "keywords": [],
   "author": "",
@@ -38,6 +39,8 @@
     "winston": "^3.10.0"
   },
   "devDependencies": {
-    "mocha": "^10.2.0"
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
   }
 }
